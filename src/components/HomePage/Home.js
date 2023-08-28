@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+
 const Group = () => {
   return (
     <div className="relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-full h-[734.44px] text-left text-[18px] text-black font-inter">
@@ -50,6 +51,7 @@ const Group = () => {
             </p>
           </b>
         </div>
+        
       </div>
     </div>
   );
