@@ -8,7 +8,7 @@ const LoginScreen = () => {
     <div className="relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-full h-[734.44px] text-left text-[18px] text-black font-inter">
       <div className="absolute top-[0px] left-[0px] w-full h-[923px] ">
         <div className="absolute top-[0px] left-[0px] bg-gray-400 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border  w-full h-full overflow-hidden border-[1px] border-solid border-gray-300 ">
-          <Image
+          <Image // image de background
             width={800}
             height={800}
             className="absolute top-[0px] left-[0px] w-full h-[923px]  object-cover "
@@ -39,7 +39,7 @@ const LoginScreen = () => {
             Sign in with Google
           </Link>
 
-          <Image
+          <Image // image of loginScreen
             width={800}
             height={800}
             className="absolute top-[119px] left-[600px] rounded-3xs w-[432px] h-[444px] object-cover"
