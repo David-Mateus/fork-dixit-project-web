@@ -1,17 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Group = () => {
+
+// Creating login of screen
+const LoginScreen = () => {
   return (
     <div className="relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-full h-[734.44px] text-left text-[18px] text-black font-inter">
-      <div className="absolute top-[0px] left-[0px] w-full h-[923px]">
-        <div className="absolute top-[0px] left-[0px] bg-gray-400 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border w-full h-full overflow-hidden border-[1px] border-solid border-gray-300">
+      <div className="absolute top-[0px] left-[0px] w-full h-[923px] ">
+        <div className="absolute top-[0px] left-[0px] bg-gray-400 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border  w-full h-full overflow-hidden border-[1px] border-solid border-gray-300 ">
           <Image
             width={800}
             height={800}
-            className="absolute top-[0px] left-[0px] w-full h-[923px] object-cover"
+            className="absolute top-[0px] left-[0px] w-full h-[923px]  object-cover "
             alt=""
-            src="/4aae735f0f6131b4e5210a108347d8ae-2@2x.png"
+            src="/imageBackground.png"
           />
           <div className="absolute top-[108px] left-[560px] rounded-3xs bg-gray-200 w-[907px] h-[504px]" />
           <div className="absolute top-[118px] left-[600px] bg-gainsboro w-[432px] h-[445px]" />
@@ -19,10 +21,10 @@ const Group = () => {
           <Link
             href="/posts/first-post"
             type="button"
-            class=" absolute no-underline top-[401px] left-[1120px] cursor-pointer  w-[200px] h-[45px] text-black bg-[#ffffff] hover:bg-[#f1f1f1]/90 focus:ring-4 focus:outline-none focus:ring-[#05020E]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
+            className=" absolute no-underline top-[401px] left-[1120px] cursor-pointer  w-[200px] h-[45px] text-black bg-[#ffffff] hover:bg-[#f1f1f1]/90 focus:ring-4 focus:outline-none focus:ring-[#05020E]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
           >
             <svg
-              class="w-5 h-5 mr-2"
+              className="w-5 h-5 mr-2"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -50,11 +52,11 @@ const Group = () => {
               your own cards.
             </p>
           </b>
+          
         </div>
-        
       </div>
     </div>
   );
 };
 
-export default Group;
+export default LoginScreen;
